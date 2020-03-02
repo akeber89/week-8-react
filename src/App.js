@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './Header.jsx';
+import Paragraph from './Paragraph.jsx';
+import Square from './Square.jsx';
+import People from './People.jsx';
+import Stuff from './Stuff.jsx';
+import Pagination from './Pagination.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Paragraph />
+      <Paragraph />
+      <Paragraph />
+      <Paragraph />
+      <Square />
+      <People />
+      <Stuff />
+      <Pagination />
     </div>
   );
 }
