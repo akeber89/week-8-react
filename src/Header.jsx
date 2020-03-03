@@ -1,7 +1,18 @@
-import React from "react";
+import React, { Component } from "react";
 
-const Header = () => (
-    <h1>Hello, world</h1>
-);
+
+class Header extends Component {
+
+
+    render() {
+
+        return (
+            <header className="jumbotron" > <h1>Hello</h1>
+            </header> );
+    }
+    
+};
 
 export default Header;
+
+// or replace text with {children}

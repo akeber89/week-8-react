@@ -10,7 +10,7 @@ const Stuff = () => (
 
     <React.Fragment>
         <Header />
-        <Paragraph />
+        <Paragraph message={<Square />}/>
         <Square />
         <People />
         <Pagination />

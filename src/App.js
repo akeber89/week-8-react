@@ -9,12 +9,12 @@ import Pagination from './Pagination.jsx';
 function App() {
   return (
     <div>
-      <Header />
+      <Header text= 'new title'/>
+      <Paragraph message = 'The Unmarried Mother was a man twenty–five years old, no taller than I am, childish features and a touchy temper. I didn’t like his looks—I never had—but he was a lad I was here to recruit, he was my boy. I gave him my best barkeep’s smile.' />
       <Paragraph />
       <Paragraph />
       <Paragraph />
-      <Paragraph />
-      <Square />
+      <Square colour= 'blue' />
       <People />
       <Stuff />
       <Pagination />
